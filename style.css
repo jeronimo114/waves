@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mochiy Pop P One", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: rgb(240, 231, 231);
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(228, 219, 219);
+}
+.about {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #00211b;
+}
+.svg-top {
+  position: absolute;
+  top: 0;
+}
+.nav-bar {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.link1 {
+  flex: 0.6;
+  margin: 1.5rem;
+}
+.about-bottom-svg {
+  overflow-x: hidden;
+  position: absolute;
+  top: 160vh;
+}
+.bitmoji {
+  position: absolute;
+  width: 15rem;
+  top: 25%;
+  z-index: 2;
+}
